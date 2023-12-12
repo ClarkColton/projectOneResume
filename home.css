@@ -1,0 +1,85 @@
+.g-nav-link {
+    display: flex; /* Enables Flexbox */
+    justify-content: left; /* Space out the items evenly */
+    align-items: left;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 12px black;
+}
+
+.g-nav-link a {
+    margin: 0 10px; /* Optional: Adds some space around each link */
+}
+
+.g-base{
+    background-color:rgb(54, 102, 141);
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; /* Centers content horizontally inside the header */
+    align-items: center; /* Centers content vertically inside the header */
+    margin: 2rem auto; /* Top and bottom margin of 2rem, auto horizontally centers the block */
+    background-color: darkslateblue;
+    box-shadow: 2px 2px 12px black;
+    width: 30%; /* Adjust to desired width */
+    max-width: 60rem; /* Adjust to desired max-width or remove if not needed */
+    padding-bottom: 1rem;
+}
+
+aside {
+    display: flex;
+    justify-content: center; /* Centers content horizontally inside the header */
+    align-items: center; /* Centers content vertically inside the header */
+    margin: 2rem auto; /* Top and bottom margin of 2rem, auto horizontally centers the block */
+    background-color: darkslateblue;
+    box-shadow: 2px 2px 12px black;
+    width: 10%; /* Adjust to desired width */
+    max-width: 60rem; /* Adjust to desired max-width or remove if not needed */
+    padding-bottom: 1rem;
+}
+
+.g-heading {
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 0.5rem; /* Add some space below the heading */
+}
+
+.g-subheading {
+    font-weight: bold;
+    font-size: 1rem;
+    /* No align-self needed */
+}
+
+#thumbnailIndex {
+    display: flex; /* Enables Flexbox */
+    justify-content: center; /* Space out the items evenly */
+    align-items: center; /* Align items vertically in the center */
+    flex-wrap: wrap; /* Allows items to wrap to the next line if they don't fit */
+    box-shadow: 6px 6px 16px black;
+    background-color: rgb(29, 46, 94);
+}
+
+#thumbnailIndex figure {
+    margin: 10px; /* Adds margin around each figure */
+    text-align: center; /* Centers the text below the image */
+    text-shadow: 4px 6px 6px black;
+    max-width: 20%;
+    flex-wrap: wrap; /* Allows items to wrap to the next line if they don't fit */
+}
+
+@media (max-width: 1600px) {
+    #thumbnailIndex {
+            flex-direction: column;
+            align-items: start;
+            justify-content: start;
+            flex-wrap: nowrap;
+        }
+    #thumbnailIndex figure {
+        margin: 10px; /* Adds margin around each figure */
+        text-align: center; /* Centers the text below the image */
+        text-shadow: 4px 6px 6px black;
+        max-width: 20%;
+    }
+    }

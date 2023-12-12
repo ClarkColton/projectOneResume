@@ -1,0 +1,210 @@
+
+.g-base {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(40, 84, 119);
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; /* Centers content horizontally inside the header */
+    align-items: center; /* Centers content vertically inside the header */
+    margin: 2rem auto; /* Top and bottom margin of 2rem, auto horizontally centers the block */
+    background-color: darkslateblue;
+    box-shadow: 2px 2px 12px black;
+    width: 30%; /* Adjust to desired width */
+    max-width: 60rem; /* Adjust to desired max-width or remove if not needed */
+    padding-bottom: 1rem;
+}
+
+.p-heading {
+    font-weight: bold;
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 0.5rem; /* Add some space below the heading */
+}
+
+.p-subheading {
+    font-weight: bold;
+    color:red;
+    font-size: 2rem;
+    text-shadow: 0.2rem 0.2rem 0.2rem black;
+}
+
+#s-appindex {
+    display: flex;
+    flex-direction: column;
+    justify-content:center; /* Center the content on the page */
+    margin-left: 15%;
+    flex-wrap: wrap;
+}
+
+#s-balrog {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    box-shadow: 2px 2px 12px black;
+    background-color: rgb(20, 45, 65);
+    max-width: 78%;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+#s-balrog img {
+    max-width: 23rem; /* Set a maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between the image and the caption */
+}
+
+#s-quotes {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    box-shadow: 2px 2px 12px black;
+    background-color: rgb(20, 45, 65);
+    max-width: 78%;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+#s-quotes img {
+    max-width: 23rem; /* Set a maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between the image and the caption */
+}
+
+#s-quiz {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    box-shadow: 2px 2px 12px black;
+    background-color: rgb(20, 45, 65);
+    max-width: 78%;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+#s-quiz img {
+    max-width: 23rem; /* Set a maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between the image and the caption */
+}
+
+.caption-container {
+    display: block; /* Takes up the remaining space next to the image */
+}
+
+#s-gallery {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    box-shadow: 2px 2px 12px black;
+    background-color: rgb(20, 45, 65);
+    max-width: 78%;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+#s-gallery img {
+    max-width: 23rem; /* Set a maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between the image and the caption */
+}
+
+#s-portfolio {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    box-shadow: 2px 2px 12px black;
+    background-color: rgb(20, 45, 65);
+    max-width: 78%;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+#s-portfolio img {
+    max-width: 23rem; /* Set a maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between the image and the caption */
+}
+
+
+#s-forms {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    box-shadow: 2px 2px 12px black;
+    background-color: rgb(20, 45, 65);
+    max-width: 78%;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+#s-forms img {
+    max-width: 23rem; /* Set a maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between the image and the caption */
+}
+
+.caption-container {
+    display: block; /* Takes up the remaining space next to the image */
+}
+
+
+#s-mcbalrog {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    box-shadow: 2px 2px 12px black;
+    background-color: rgb(20, 45, 65);
+    max-width: 78%;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+#s-mcbalrog img {
+    max-width: 23rem; /* Set a maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between the image and the caption */
+}
+
+.caption-container {
+    display: block; /* Takes up the remaining space next to the image */
+}
+
+
+#s-insult {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    box-shadow: 2px 2px 12px black;
+    background-color: rgb(20, 45, 65);
+    max-width: 78%;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+#s-insult img {
+    max-width: 23rem; /* Set a maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between the image and the caption */
+}
+
+
+#s-numguess {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    box-shadow: 2px 2px 12px black;
+    background-color: rgb(20, 45, 65);
+    max-width: 78%;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+#s-numguess img {
+    max-width: 23rem; /* Set a maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between the image and the caption */
+}
+
+.a-caption-container {
+    display: block; /* Takes up the remaining space next to the image */
+}
+
+#figcaption, .a-caption-container p {
+    margin-bottom: 20; 
+}

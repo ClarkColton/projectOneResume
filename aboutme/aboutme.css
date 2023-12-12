@@ -1,0 +1,140 @@
+.g-nav-link {
+    display: flex; /* Enables Flexbox */
+    justify-content: left; /* Space out the items evenly */
+    align-items: left;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 12px black;
+}
+
+.g-nav-link a {
+    margin: 0 10px; /* Optional: Adds some space around each link */
+}
+
+header {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; /* Centers content horizontally inside the header */
+    align-items: center; /* Centers content vertically inside the header */
+    margin: 2rem auto; /* Top and bottom margin of 2rem, auto horizontally centers the block */
+    background-color: darkslateblue;
+    box-shadow: 2px 2px 12px black;
+    width: 30%; /* Adjust to desired width */
+    max-width: 60rem; /* Adjust to desired max-width or remove if not needed */
+    padding-bottom: 1rem;
+}
+
+.g-base {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(40, 84, 119);
+}
+
+.p-heading {
+    font-weight: bold;
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 0.5rem; /* Add some space below the heading */
+}
+
+.p-subheading {
+    font-weight: bold;
+    color:red;
+    font-size: 2rem;
+    text-shadow: 0.2rem 0.2rem 0.2rem black;
+    /* No align-self needed */
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#s-introduction {
+    color: white;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    width: 100%;
+    font-size: 1.1rem;
+}
+
+#s-stats {
+    color: white;
+    background-color: rgb(0, 85, 85);
+    display: flex;
+    max-width: 22%;
+    font-weight: bold;
+    box-shadow: 6px 6px 12px black;
+    flex-direction: column;
+    margin-top: 1rem
+}
+
+#s-preference {
+    color:rgb(16, 209, 16);
+    text-shadow: 2px 2px 2px rgb(0, 58, 0);
+}
+
+#s-js {
+    color:rgb(255, 175, 1);
+    text-shadow: 2px 2px 2px rgb(0, 58, 0);
+}
+
+.p-center-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+
+#s-interests {
+    color: white;
+    background-color: rgb(0, 85, 85);
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 22%;
+    font-weight: bold;
+    box-shadow: 6px 6px 12px black;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+#s-dislikes {
+    color: white;
+    background-color: rgb(0, 85, 85);
+    display: flex;
+    flex-wrap: wrap;
+    width: 24%; /* Set this to the width you want */
+    font-weight: bold;
+    box-shadow: 6px 6px 12px black;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 1rem; /* Add space below the section */
+    
+}
+
+#s-likes {
+    color: white;
+    background-color: rgb(0, 85, 85);
+    display: flex;
+    flex-wrap: wrap;
+    width: 24%; /* Set this to the width you want */
+    font-weight: bold;
+    box-shadow: 6px 6px 12px black;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 1rem; /* Add space below the section */
+}
+
+@media (max-width: 800px) {
+    .p-center-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        margin-top: 2rem;
+        width: 100%;
+    }
+    }

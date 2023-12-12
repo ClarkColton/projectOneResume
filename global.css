@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Joan&family=Kdam+Thmor+Pro&family=League+Gothic&family=Raleway:wght@400;700&family=Roboto+Slab:wght@400;700&family=Shadows+Into+Light&display=swap');
+.g-nav-link {
+    display: flex; /* Enables Flexbox */
+    justify-content: left; /* Space out the items evenly */
+    align-items: left;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 12px black;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.g-nav-link a {
+    margin: 0 10px; /* Optional: Adds some space around each link */
+}
